@@ -17,16 +17,16 @@ client.on('message', message => {
       if(command === 'help'){
         message.channel.send('-classkey = To know Keycodes For subjects\n -(subject keycode) = To Get the Link to join\n This Bot is still in development.')
     } else if(command === 'classkey'){
-        message.channel.send('Aptitude = aptd\nSignals and Systems = sigsys\n Electromagnetics and Transmission Lines = emtl\nElectronic Devices = eledvc\nDigital Electronics = digele\nEVS = evs\nControl Systems = ctrlsys\nSocial Engineering = soceng\nMaths = math')
-    } else if(command === 'aptd'){
+        message.channel.send('Aptitude = apti\nSignals and Systems = sigsys\n Electromagnetics and Transmission Lines = emtl\nElectronic Devices = ed\nDigital Electronics = digiep\nEVS = evs\nControl Systems = ctrlsys\nSocial Engineering = soceng\nMaths = math')
+    } else if(command === 'apti'){
         message.channel.send('https://meet.google.com/lookup/h4y6aqdoix');
     } else if (command === 'sigsys'){
         message.channel.send('https://meet.google.com/lookup/fndyaqokal');
     } else if (command === 'emtl'){
         message.channel.send('https://meet.google.com/lookup/hj5h67fpc6');
-    } else if (command === 'eledvc'){
+    } else if (command === 'ed'){
         message.channel.send('https://meet.google.com/lookup/duwip7u3gh');
-    } else if (command === 'digele'){
+    } else if (command === 'digiep'){
         message.channel.send('https://meet.google.com/lookup/d2zod2dbmk');
     } else if (command === 'evs'){
         message.channel.send('https://meet.google.com/lookup/f63azng5m4');
